@@ -1,4 +1,4 @@
-#include "file_interface.h"
+#include "../include/file_interface.h"
 
 void init_FileIO(FileIO *file_io, char *in_file_name, char *out_file_name, unsigned char *meta_data, int meta_data_size)
 {

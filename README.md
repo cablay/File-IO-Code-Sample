@@ -1,2 +1,9 @@
 # File-IO-Code-Sample
-A threaded C/C++ file IO code sample with particular limitations and requirements.
+
+This code sample was made to solve the hypothetical problem of an IO bottleneck when writing data to a slow peripheral storage drive, represented by writing byte arrays to a simple local file. It was designed and revised iteratively (to simulate changing requirements) with the following constraints in mind:
+
+* Start with a set of C functions for opening streams and writing data
+* Create a class-based C++ interface and a stream manager
+* Add the ability to write metainformation
+* Extend the sample to support threading
+* Include minimal but specific tests (see main.cpp)
